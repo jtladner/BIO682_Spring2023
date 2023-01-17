@@ -1,0 +1,11 @@
+C_2993529_Ticpantry-virus-5..Fasta
+HNG_2971765_Langya-virus..Fasta
+HNG_2974046_Angavokely-henipavirus..Fasta
+L_2993528_Ticpantry-virus-4..Fasta
+N_2971765_Langya-virus..Fasta
+N_2974046_Angavokely-henipavirus..Fasta
+N_2995655_Kiwira-virus..Fasta
+PCVW_2971765_Langya-virus..Fasta
+PCVW_2974046_Angavokely-henipavirus..Fasta
+S_2993529_Ticpantry-virus-5..Fasta
+X_2993529_Ticpantry-virus-5..Fasta

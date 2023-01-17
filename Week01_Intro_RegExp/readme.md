@@ -21,25 +21,16 @@ If the reponse is not "/bin/bash" or "/bin/zsh", let me know.
     - **Keep track of your solutions in the table provided in the Assignment Answer Sheet.**
 
 2. We will now start using the text editor on your computer to use regular expressions to edit text files. 
-    1. Open "EBOV.phy" in your text editor.
-    2. Use a series of find/replace queries to convert this [phylip formatted](http://scikit-bio.org/docs/0.2.3/generated/skbio.io.phylip.html#:~:text=PHYLIP%20format%20is%20a%20plain,the%20multiple%20sequence%20alignment%20itself.) sequence alignment into a [fasta formatted](https://en.wikipedia.org/wiki/FASTA_format) file. **Record find/replace queries in Assignment Answer Sheet.**
-    
-    Fasta format example:
-     ```
-     >name1
-     seq1
-     >name2
-     seq2
-     ```
-    
-    3. Revert back to the original "EBOV.phy" file and now edit your regular expression(s) to also change the sequence names. New names should only include the characters prior to the first underscore ('_'). **Record find/replace queries in Assignment answer sheet.**
-    4. Revert back to the original "EBOV.phy" file and now edit your regular expression(s) to remove all 'N' characters from the beginning and end of each sequence. **Record find/replace queries in the Assignment answer sheet.**
-    5. **Upload final fasta-formatted file to Bb Learn along with Assignment Answer Sheet.**
+    1. Open "filenames.txt" in your text editor. This file contains a list of filenames, each of which corresponds to a fasta-formatted protein sequence file (though that's not particularly important for this exercise).
+    2. Oops, looks like there is an extra period in the name, and the file extension has mistakenly been capitalized. Use a single find/replace query to convert ```..Fasta``` to ```.fasta```. **Record your find/replace query in the Assignment Answer Sheet.**
+    3. Next, let's use regular expressions to convert these file names into shell commands that will count the number of sequences present in each file. We will learn more about shell scripting in the coming weeks, but to do this all you need to do is add ```grep -c '>' ``` onto the begging of each line that contains a file name. **Please use a single find/replace query and record it in the Assignment Answer Sheet.**
+    4. Now let's add file paths onto the beginning of these filenames so that the commands can be run from any location on your computer. We'll talk more about file paths next week, but they tell the computer where to find the files on your computer. Use a single find/replace query to add ```/Users/fakeuser/Documents/sequences/``` just prior to each file name (and after the shell command you added in the previous step) **Record your find/replace query in the Assignment Answer Sheet.**
+    5. **Upload final re-formatted text to Bb Learn along with Assignment Answer Sheet.**
 
 3. Open "HastingsBirdList\_2007.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
-    1. Design a single search and replace query that utilizes regular expressions to reformat **every** line to the following format:
+    1. Design a **single search and replace query** that utilizes regular expressions to reformat **every** line to the following format:
     ```Genus\tspecies\tG. species\tCommon Name\tStatus```
-    "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "*" character from the beginning of the Status category, if present. **Record the find/replace query in the Assignment answer sheet.** (**Tip: Copy and paste reformatted text into Excel to double check**)
+    "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "\*" character from the beginning of the Status category, if present. **Record the find/replace query in the Assignment answer sheet.** (Tip: Copy and paste reformatted text into Excel to double check your solution.)
     2. Upload re-formatted file to Bb Learn along with Assignment Answer Sheet.
     
 ## Extra fun
@@ -50,7 +41,7 @@ Explore for "extra credit" or in the event that you finish all of the other exer
 
 [Regex Crossword](https://regexcrossword.com/)
 
-Copyright (C) 2021  Jason Ladner
+Copyright (C) 2023  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
