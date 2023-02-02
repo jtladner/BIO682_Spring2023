@@ -43,7 +43,7 @@ This should automatically open the jupyter notebook within your default browser.
     
     **Note 2**: If you're using Muscle v3, the syntax is slightly different: ```muscle3.8.31_i86darwin64 -in CoV_Spike_MSA_unaligned.fasta  -out  CoV_Spike_MSA_aligned_muscle.fasta```
     
-    6. Enter the command you used in the **Assignment Answer Sheet** and **upload the aligned fasta file** (```CoV_Spike_MSA_aligned_muscle.fasta```) to Bb Learn along with the Assignment Answer Sheet. 
+    6.  **Upload the aligned fasta file** (```CoV_Spike_MSA_aligned_muscle.fasta```) to Bb Learn along with the Assignment Answer Sheet. 
 
 
 3. Download and compile source code
@@ -66,7 +66,7 @@ This should automatically open the jupyter notebook within your default browser.
     
     4. To test the compiled binary, run the following command: ```./bwa```. This should print the help documentation to the screen. Copy the first 10 lines of the help info into the **Assignment Answer Sheet**.
     
-    *Hint*: remember the ```head``` command covered last week.  
+    **Hint**: remember the ```head``` command covered last week.  
 
 
 4. Move into ```Week03_Shell-pt2/Assignment/zika_genomes```. This directory contains 89 fasta files. 88 of these each contain a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
@@ -87,9 +87,9 @@ This should automatically open the jupyter notebook within your default browser.
     
     **Hint 1**: the Zika virus genome is a little less than 11,000 nucleotides long. 
     
-    **Hint 2**: Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
+    **Hint 2**: Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name).
     
-    Enter your successful for loop in the **Assignment Answer Sheet** and **upload 1 of the output fasta files** to Bb Learn along with the Assignment Answer Sheet. 
+    5. Enter your successful for loop in the **Assignment Answer Sheet** and **upload 1 of the output fasta files** to Bb Learn along with the Assignment Answer Sheet.
 
 5. Move into the ```Week03_Shell-pt2/Assignment``` directory. Within this directory, you will find a file called ```dummy.txt```. Write and execute a simple shell script called ```dummy.sh``` that will:
     1. Create a new directory within ```Week03_Shell-pt2/Assignment``` called "dummy_dir"
