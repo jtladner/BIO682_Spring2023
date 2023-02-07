@@ -41,7 +41,7 @@ This should automatically open the jupyter notebook within your default browser.
     
     **Note 1**: Replace ```muscle5.1.macos_intel64``` with the name of the binary you downloaded. 
     
-    **Note 2**: If you're using Muscle v3, the syntax is slightly different: ```muscle3.8.31_i86darwin64 -in CoV_Spike_MSA_unaligned.fasta  -out  CoV_Spike_MSA_aligned_muscle.fasta```
+    **Note 2**: If you're using [Muscle v3](https://drive5.com/muscle/downloads_v3.htm), the syntax is slightly different: ```muscle3.8.31_i86darwin64 -in CoV_Spike_MSA_unaligned.fasta  -out  CoV_Spike_MSA_aligned_muscle.fasta```
     
     6.  **Upload the aligned fasta file** (```CoV_Spike_MSA_aligned_muscle.fasta```) to Bb Learn along with the Assignment Answer Sheet. 
 
