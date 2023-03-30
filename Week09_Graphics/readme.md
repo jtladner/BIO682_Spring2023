@@ -24,7 +24,7 @@ Practical Computing for Biologists, Chapters 17-19
 
     2. Next, use the Type tool to add x- and y-axis labels. The y-axis label should be "log(unique 19mers in cluster)" and the x-axis label should be "log(# of sequences)". Make sure the labels will be easily visible in printed form. 
 
-    3. To allow for easier editing, use the 'Select -> Same' tool to move similar elements (e.g., elements with the same fill and stroke) onto different layers. Go ahead and hide the layer containing elements with transparent stroke AND fill. Also hide the layers containing elements with red/blue stroke, but transparent fill. 
+    3. To allow for easier editing, use the 'Select -> Same' tool to move similar elements (e.g., elements with the same fill and stroke) onto different layers. Go ahead and hide the layers containing elements with red/blue stroke, but transparent fill. If you are using the .pdf formatted file, also hide the layer containing elements with transparent stroke AND fill. 
 
     4. Note how your impression of the data changes depending on whether the layer with the blue circles is above or below the layer with the red circles. In order to better visualize the overlapping points, convert the fill of all the circles to 50% transparency. 
     
